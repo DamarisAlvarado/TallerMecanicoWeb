@@ -1,0 +1,33 @@
+
+#contenedor{
+    display: flex;
+    text-align: center;
+}
+#Login{
+    width: 55%;
+    height: 100vh;
+    background-image: url('/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#info{
+    width: 45%;
+}
+
+#logo{
+    margin-top: 2rem;
+}
+
+label{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.030rem;
+}
+input{
+    margin-top: 1rem;
+}
+#entrar{
+    padding-top: 10rem;
+}
+
+

@@ -1,0 +1,331 @@
+
+body{
+    background-image: url(/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+   
+li{
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+li:hover{
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);
+    border-radius: 10rem;
+}
+/*Alta de modelos*/
+#card1{
+    background-color: rgba(255, 255, 255, 0.938);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height:70%;
+    width: 40%;
+    color: black;
+}
+
+
+#registrar{
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 100%;
+    border:none;
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+#modelo{
+    width: 100%;
+    height: 2rem;
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    margin-top: 1rem;
+  
+}
+
+#titulo{
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+#marca{
+    margin-top: 1rem;
+}
+label{
+    font-size: large;
+}
+
+
+/*alta de usuario*/
+#registrarUs{
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 100%;
+    border:none;
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+#card2{
+    background-color: rgba(255, 255, 255, 0.938);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height:75%;
+    width: 40%;
+    color: black;
+}
+
+/*cotizaciones bar*/
+#contenedorB{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#Clientes {
+    font-size: large;
+    width: 30%;
+    height: 15rem;
+    display: flex; 
+    flex-direction: column;            
+    align-items: center; 
+    justify-content: center;  
+    text-decoration: none;  
+    border: none;   
+    border-radius: 3rem; 
+    margin: 15% auto;  
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);         
+    box-shadow: rgba(10, 0, 0, 0.863) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(17, 3, 3, 0.47) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+/* Cotizaciones clientes*/
+#clientesC{
+    background-color: rgba(255, 255, 255, 0.938);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height:87%;
+    width: 45%;
+    color: black;
+}
+#registrarCliente{
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 100%;
+    border:none;
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Cotizaciones vehiculo*/
+#contenedorV{
+    flex-direction: column; 
+    justify-content: space-around;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+#contenedorv2{
+    background-color: rebeccapurple;
+    flex-direction: row;
+}
+#labelV{
+    margin: 1rem;
+    
+}
+#inp{
+    height: 2rem;
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    margin-top: 1rem;
+   
+}
+
+/* MARCA Y MODELO SELECT*/
+#labM{
+   
+   margin: 1rem;
+}
+#marca{
+    height: 2rem;
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    margin-left: 0.5rem;
+    width: 18rem;
+}
+#modelo{
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    height: 2rem;
+    width: 18rem;
+    margin-left: 0.5rem;
+}
+
+#labT{
+   margin: 1rem;
+ }
+#TEXT{
+    margin-top: 1rem;
+    width: 30rem;
+    height: 2rem;
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+#mMode{
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    height: 2rem;
+    width: 18rem;
+    margin-left: 0.5rem;
+}
+
+/* cotizaciones */
+
+#card2{
+    background-color: rgba(255, 255, 255, 0.938);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    height:100%;
+    width: 100%;
+    color: black;
+    border-radius: 10rem;
+}
+
+#contenedorIn{
+    display: flex;
+    flex-direction: row;
+    
+}
+#cliente,#vehiculo{
+    width:50% ;
+    padding: 1rem;
+    text-align: left;
+   
+}
+#cliente{
+    margin-left: 5rem;
+}
+#vehiculo{
+    margin-left: -7rem ;
+}
+
+#titulo{
+    font-size: medium;
+    
+}
+#respuesta{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+#registro{
+    margin-left: 5rem;
+    width:80% ;
+    text-align: left;
+    font-size: medium;
+}
+#titleSer{
+    margin-left: 7.5rem;
+ }
+
+#titleC{
+    margin-left: 8rem;
+}
+#titleU{
+    margin-left: 3rem;
+}
+#titleHs{
+    margin-left: 3rem;
+}
+#titleH{
+    margin-left: 3rem;
+}
+.cantidad{
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    margin-right: 2.5rem;
+}
+.cantidadh{
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    margin-right: 1rem;
+
+}
+
+#registroCa{
+    text-align: left;
+}
+#servicios{
+    height: 2rem;
+    border: rgb(113, 113, 113) 2px double;
+    border-radius: 0.5rem;
+    color: black;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+#GenPDF{
+    margin-left: 3rem;
+    border: none;
+    border-radius: 3rem;
+}
+#GuardarC{
+    margin-left: 10rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+#GenEx{
+    margin-left: 4rem;
+    border: none;
+    border-radius: 3rem;
+}
+#calculos{
+    margin-left: 6.8rem;
+}
+#calculos2{
+    margin-left: 44rem;
+}
+
+button{
+    background: #8E0E00; 
+    background: -webkit-linear-gradient(to right, #401717, #8E0E00); 
+    background: linear-gradient(to right, #da2a1d, #8E0E00);
+    color: white;
+}
